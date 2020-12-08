@@ -1,0 +1,48 @@
+html,
+nav{
+    background-color:;
+}
+body{
+    background-color:;
+}
+header{
+    background: url("useHeader.png");
+    background-size: cover;
+    background-position: center; /* not background-position-x*/
+    min-height: 1000px;
+    padding: 20px;
+}
+/* to resize the image for responsiveness*/
+@media screen and (max-width: 670px){}
+header{min-height: 500px;
+}
+.brand-logo{position: fixed;
+    max-inline-size: 60px;
+}
+div.footer-copyright{
+    font-style: italic;
+}
+#about{
+    margin-top: 20px;
+}
+#aboutPic{
+    max-height: auto;
+    margin-top: 30px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: auto;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .image-container{
+      padding-left: 30px;
+      width: 350px;
+      height: 315px;
+  }
+  #blog{
+      display: block;
+  }
